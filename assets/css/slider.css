@@ -682,6 +682,7 @@ main {
 .master-tao .accordion-button.collapsed{
     background-color: var(--bs-accordion-active-color);
     color: var(--bs-accordion-bg);
+    border: 1px solid  #3A444E;
 }
 
 .master-tao .accordion-item .accordion-button::after {
