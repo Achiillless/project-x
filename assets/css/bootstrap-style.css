@@ -1,0 +1,92 @@
+.container{
+    margin-top: 50px; 
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown{
+    margin-bottom: 10px;
+}
+
+.tab{
+    margin-bottom: 40px;
+}
+
+.img-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.product{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    max-width: 320px;
+    margin: auto;
+    padding: 12px;
+}
+
+.product-img{
+    text-align: center;
+}
+
+.left-sitebar{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.accordion-faq .accordion-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 24px 34px;
+    color: #0B305D;
+}
+
+.accordion-faq .accordion-item {
+    margin-bottom: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 6px 24px #0b305d33;
+    border: none;
+}
+
+.accordion-faq .accordion-button:not(.collapsed) {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.accordion-faq .accordion-body {
+    padding: 0 84px 35px 34px;
+}
+
+.accordion-button::after  {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_929_1485)'%3E%3Cpath d='M23 11H13V1C13 0.734784 12.8946 0.48043 12.7071 0.292893C12.5196 0.105357 12.2652 0 12 0V0C11.7348 0 11.4804 0.105357 11.2929 0.292893C11.1054 0.48043 11 0.734784 11 1V11H1C0.734784 11 0.48043 11.1054 0.292893 11.2929C0.105357 11.4804 0 11.7348 0 12H0C0 12.2652 0.105357 12.5196 0.292893 12.7071C0.48043 12.8946 0.734784 13 1 13H11V23C11 23.2652 11.1054 23.5196 11.2929 23.7071C11.4804 23.8946 11.7348 24 12 24C12.2652 24 12.5196 23.8946 12.7071 23.7071C12.8946 23.5196 13 23.2652 13 23V13H23C23.2652 13 23.5196 12.8946 23.7071 12.7071C23.8946 12.5196 24 12.2652 24 12C24 11.7348 23.8946 11.4804 23.7071 11.2929C23.5196 11.1054 23.2652 11 23 11Z' fill='%230B305D'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_929_1485'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_929_1093)'%3E%3Cpath d='M23 10.9997H1C0.447715 10.9997 0 11.4474 0 11.9997C0 12.552 0.447715 12.9997 1 12.9997H23C23.5523 12.9997 24 12.552 24 11.9997C24 11.4474 23.5523 10.9997 23 10.9997Z' fill='%230B305D'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_929_1093'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.btn-danger:hover{
+    background-color: #f8640e;
+    color: #af4203;
+}
+
+.btn-primary:active{
+    color: #aa0000;
+    background-color: #ff0000;
+}
+
+.btn-success:focus{
+    background-color: #adff2f;
+    color: #3a9100;
+}

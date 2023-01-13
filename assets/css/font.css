@@ -1,0 +1,245 @@
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Thin.ttf) format(truetype);
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Light.ttf) format(truetype);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Medium.ttf) format(truetype);
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Black.ttf) format(truetype);
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url(../fonts/Teko-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url(../fonts/Teko-Light.ttf) format(truetype);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url(../fonts/Teko-Medium.ttf) format(truetype);
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url(../fonts/Teko-SemiBold.ttf) format(truetype);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url(../fonts/Teko-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Khand";
+    src: url(../fonts/Khand-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Khand";
+    src: url(../fonts/Khand-Light.ttf) format(truetype);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Khand";
+    src: url(../fonts/Khand-Medium.ttf) format(truetype);
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Khand";
+    src: url(../fonts/Khand-SemiBold.ttf) format(truetype);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Khand";
+    src: url(../fonts/Khand-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.text-template__title {
+    font-size: 50px;
+    padding: var(--padding);
+}
+
+.text-template__item {
+    background-color:var(--bg-color);
+    margin-bottom: var(--mb-item);
+}
+
+.item-100 {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: var(--font-size);
+}
+
+.item-300 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: var(--font-size);
+}
+
+.item-400 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: var(--font-size);
+}
+
+.item-500 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: var(--font-size);
+}
+
+.item-700 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: var(--font-size);
+}
+
+.item-900 {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: var(--font-size);
+}
+
+.text-template__item2 {
+    background-color:var(--bg-color-2);
+    margin-bottom: var(--mb-item);
+}
+
+
+.item2-300 {
+    font-family: "Teko";
+    font-weight: 300;
+    font-size: var(--font-size);
+}
+
+.item2-400 {
+    font-family: "Teko";
+    font-weight: 400;
+    font-size: var(--font-size);
+}
+
+.item2-500 {
+    font-family: "Teko";
+    font-weight: 500;
+    font-size: var(--font-size);
+}
+
+.item2-600 {
+    font-family: "Teko";
+    font-weight: 600;
+    font-size: var(--font-size);
+}
+
+.item2-700 {
+    font-family: "Teko";
+    font-weight: 700;
+    font-size: var(--font-size);
+}
+
+.text-template__item3 {
+    background-color: var(--bg-color-3);
+}
+
+.item3-300 {
+    font-family: "Khand";
+    font-weight: 300;
+    font-size: var(--font-size);
+}
+
+.item3-400 {
+    font-family: "Khand";
+    font-weight: 400;
+    font-size: var(--font-size);
+}
+
+.item3-500 {
+    font-family: "Khand";
+    font-weight: 500;
+    font-size: var(--font-size);
+}
+
+.item3-600 {
+    font-family: "Khand";
+    font-weight: 600;
+    font-size: var(--font-size);
+}
+
+.item3-700 {
+    font-family: "Khand";
+    font-weight: 700;
+    font-size: var(--font-size);
+}

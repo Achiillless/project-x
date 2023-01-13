@@ -1,0 +1,57 @@
+.position .example-list_item {
+    font-size: 40px;
+    width: 150px;
+    height: 100px;
+}
+
+.block {
+    display: flex;
+}
+
+.example-list_item.reletive {
+    position: relative;
+    top: -107px;
+    right: -33px;
+}
+
+.example-list_item.absolute {
+    position: absolute;
+    top: 945px;
+    right: 391px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+}
+
+.fixed img {
+    height: 89px;
+    width: 89px;
+}
+
+.sticky{
+    background-color: rgb(7, 170, 211);
+    padding: 20px 40px;
+}
+
+.sticky-screen{
+    font-size: 30px;
+    padding: 20px;
+    overflow: scroll auto;
+    height: 300px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.sticky-screen p{
+    margin-bottom: 10px;
+}
+.item-sticky{
+    position: sticky;
+    background-color: red;
+    top: 10px;
+}
