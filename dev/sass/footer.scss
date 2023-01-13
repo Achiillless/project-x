@@ -1,11 +1,18 @@
 footer{
     height: 100px;
     background: $color-me;
-    margin-top: auto;
+    margin-top: none;
     font-size: 30px;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+footer:hover{
+   color: #e78b00;
 }
 
  

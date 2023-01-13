@@ -25,6 +25,7 @@ header {
   background: #222;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 header a {
   color: #fff;
@@ -37,16 +38,39 @@ header a:hover {
   color: #e78b00;
 }
 
+.container {
+  background-color: #51f897;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
-  color: blue;
+  color: #444444;
+  font-size: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: #e78b00;
 }
 
 footer {
   height: 100px;
   background: #6d5dff;
-  margin-top: auto;
+  margin-top: none;
   font-size: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+footer:hover {
+  color: #e78b00;
 }
 /*# sourceMappingURL=style.css.map */

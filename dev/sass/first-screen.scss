@@ -1,3 +1,18 @@
+.container{
+    background-color: $color-two;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
-    color: blue;
+    color: #444444;
+    font-size: 30px;
+     transition: .3s;
+     cursor: pointer;
+}
+
+h1:hover{
+    color: #e78b00;
 }
